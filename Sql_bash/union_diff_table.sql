@@ -1,7 +1,7 @@
---1.±¾½Å±¾ÓÃÓÚÆ´½ÓÁ©¸öÍ¬Ãû±í£¬È¥ÖØÏàÍ¬×Ö¶Î£¬±£Áô²»Í¬Ãû×Ö¶Î£¬Éú³É¶ÔÓ¦µÄdropºÍcreateÓï¾ä
---2.user_tab_column_isºÍuser_tab_column_fdÎª¸÷×Ôuser_tab_columnÖĞ»ñÈ¡µÄÊı¾İ£¬ÇëÌŞ³ı²»ĞèÒªµÄ±í
---3.Á½±ßµÄ±íÊıÁ¿¿ÉÒÔ²»ÏàÍ¬
---4.user_tab_columns_is/user_tab_columns_fdµÄ´´½¨²Î¿¼ÏÂÃæµÄSQL£º
+--1.æœ¬è„šæœ¬ç”¨äºæ‹¼æ¥ä¿©ä¸ªåŒåè¡¨ï¼Œå»é‡ç›¸åŒå­—æ®µï¼Œä¿ç•™ä¸åŒåå­—æ®µï¼Œç”Ÿæˆå¯¹åº”çš„dropå’Œcreateè¯­å¥
+--2.user_tab_column_iså’Œuser_tab_column_fdä¸ºå„è‡ªuser_tab_columnä¸­è·å–çš„æ•°æ®ï¼Œè¯·å‰”é™¤ä¸éœ€è¦çš„è¡¨
+--3.ä¸¤è¾¹çš„è¡¨æ•°é‡å¯ä»¥ä¸ç›¸åŒ
+--4.user_tab_columns_is/user_tab_columns_fdçš„åˆ›å»ºå‚è€ƒä¸‹é¢çš„SQLï¼š
 --  create or replace view tab_columns_1 as 
 --  select table_name, column_name, data_type, data_length, data_precision, data_scale 
 --    from user_tab_columns;
